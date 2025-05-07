@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+
+.alink-class:hover {
+  color: red;
+}
+.alink-class:active {
+  color: aqua;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  background-color: brown;
+}
+
+ul li {
+  background-color: antiquewhite;
+}
+
+ul:hover li {
+  color: blueviolet;
+}
+
+.parent-div p:: ::first-line {
+  color: goldenrod;
+}
